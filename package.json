@@ -1,26 +1,36 @@
 {
-  "name": "oc_projet_2",
+  "name": "maxime-tamburrini.com",
   "version": "1.0.0",
-  "description": "Projet 2 - Intégration d'une maquette en HTML, CSS",
-  "main": "project/oc_projet_2/index.html",
+  "description": "Maxime Tamburrini | Front-End Developer",
+  "main": "index.html",
+  "type": "module",
   "scripts": {
-    "start": "http-server project/oc_projet_2"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/maxiim3/oc_projet_2.git"
-  },
-  "keywords": [
-    "openclassrooms"
-  ],
-  "author": "Maxime Tamburrini",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/maxiim3/oc_projet_2/issues"
-  },
-  "homepage": "https://github.com/maxiim3/oc_projet_2#readme",
   "dependencies": {
-    "http-server": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },  "repository": {
+  "type": "git",
+  "url": "https://github.com/maxiim3/maxime-tamburrini.com"
+},
+  "keywords": [
+    "portfolio"
+  ],
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
     "prettier": "^2.6.2"
-  }
+  },
+  "author": "Maxime Tamburrini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxiim3/maxime-tamburrini.com/issues"
+  },
+  "homepage": "https://maxime-tamburrini.com"
 }

@@ -3,7 +3,7 @@
 ### **Projet de soutenance numéro 2**
 
 ---
-![](./assets/logo/Booki.png)
+![](assets/logo/Booki.png)
 
 Le but de ce projet est d'intégrer une maquette en utilisant uniquement HTML / CSS.
 
