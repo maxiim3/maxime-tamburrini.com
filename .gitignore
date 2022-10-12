@@ -130,4 +130,4 @@ typings/
 #Jet brainw
 .idea/
 
-#
+dist/
