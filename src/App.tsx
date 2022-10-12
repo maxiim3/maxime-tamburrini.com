@@ -21,12 +21,13 @@ function App() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          Edit <code>src/App.tsx</code> and save to test 123
         </p>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+        <a href="https://project.maxime-tamburrini.com/oc_project_2/index.html" >Go to project 2</a>
     </div>
   )
 }
