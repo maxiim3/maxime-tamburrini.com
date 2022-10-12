@@ -8,7 +8,6 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
 dist-ssr
 *.local
 
@@ -128,5 +127,7 @@ typings/
 # TernJS port file
 .tern-port
 
-#Jet brain
+#Jet brainw
 .idea/
+
+index.html
