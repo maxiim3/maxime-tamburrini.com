@@ -1,35 +1,44 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div className="App">
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/public/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test 123
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-        <a href="https://project.maxime-tamburrini.com/oc_project_2/index.html" >Go to project 2</a>
+      <h1>Maxime</h1>
+      <p>Welcome</p>
+      <h2>Some projects</h2>
+      <ul>
+        <li>
+          <a href="https://project.maxime-tamburrini.com/oc_projet_2/">
+            Go to project 2
+          </a>
+        </li>
+        <li>
+          <a href="https://maxiim3.github.io">
+            Go to project 3
+          </a>
+        </li>
+        <li>
+          <a href="https://project.maxime-tamburrini.com/oc_projet_4/starterOnly">
+            Go to project 4
+          </a>
+        </li>
+        <li>
+          <a href="https://project.maxime-tamburrini.com/oc_projet_6/">
+            Go to project 6
+          </a>
+        </li>
+        <li>
+          <a href="https://project.maxime-tamburrini.com/oc_projet_7/">
+            Go to project 7
+          </a>
+        </li>
+      </ul>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
