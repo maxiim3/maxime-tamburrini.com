@@ -8,8 +8,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "deploy" : "git push origin deploy",
-    "split" : "git subtree split --branch deploy --prefix dist/"
+    "deploy" : "cd dist && git add . && git commit -m 'deploy' && git push origin main"
   },
   "dependencies": {
     "react": "^18.2.0",

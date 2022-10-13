@@ -1,0 +1,46 @@
+{
+	"projects": [
+		{
+			"name": "Booki",
+          "techno": ["html", "css", "git"],
+			"tags": ["#Responsive", "#Integration" ],
+			"year": 2022,
+			"url": "http://",
+			"repo": "http:",
+			"context": "loremkjhadfs kl;jahsdflkh; fas;dh",
+			"preview": "img.."
+		},
+		{
+          "name": "Booki",
+          "techno": ["html", "css", "git"],
+          "tags": ["#Responsive", "#Integration" ],
+          "year": 2022,
+          "url": "http://",
+          "repo": "http:",
+          "context": "loremkjhadfs kl;jahsdflkh; fas;dh",
+          "preview": "img.."
+		}
+    ,
+      {
+        "name": "Booki",
+        "techno": ["html", "css", "git"],
+        "tags": ["#Responsive", "#Integration" ],
+        "year": 2022,
+        "url": "http://",
+        "repo": "http:",
+        "context": "loremkjhadfs kl;jahsdflkh; fas;dh",
+        "preview": "img.."
+      }
+    ,
+      {
+        "name": "Booki",
+        "techno": ["html", "css", "git"],
+        "tags": ["#Responsive", "#Integration" ],
+        "year": 2022,
+        "url": "http://",
+        "repo": "http:",
+        "context": "loremkjhadfs kl;jahsdflkh; fas;dh",
+        "preview": "img.."
+      }
+	]
+}
